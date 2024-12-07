@@ -1,0 +1,90 @@
+body {
+  font-family: 'Georgia', serif;
+  background: url('birthday_background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.intro-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.909);
+  text-align: center;
+}
+
+.intro-screen h2 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.intro-screen p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.intro-screen button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #a0a0a0;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.intro-screen button:hover {
+  background-color: #b68929;
+}
+
+.hidden {
+  display: none;
+}
+
+.main-invitation {
+  padding: 30px;
+}
+
+.box-container {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  background-color: #51515170;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.box-container h1 {
+  color: #333; /* Warna emas */
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.box-container p {
+  font-size: 25px;
+  color: #f7f5f5; /* Warna teks */
+  margin-bottom: 20px;
+}
+
+.box-container button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #d4af37;
+  border: none;
+  color: #000000;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.box-container button:hover {
+  background-color: #b68929;
+}
